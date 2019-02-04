@@ -1,0 +1,23 @@
+div {
+    text-align: center;
+    font-size: 1.25rem;
+    padding: .5rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+.menuBar {
+    display: flex;
+    flex-wrap: wrap;
+    
+    background-color: darkblue;
+}
+
+.menuItem {
+    flex-grow: 1;
+    flex-basis: 0;
+
+    border: 0.25rem solid white;
+    background-color: aquamarine;
+    color: black;
+}
