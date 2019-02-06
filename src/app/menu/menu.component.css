@@ -21,3 +21,11 @@ div {
     background-color: aquamarine;
     color: black;
 }
+
+.menuItem:hover {
+    background-color: lemonchiffon;
+}
+
+.menuItem:active {
+    background-color: orangered;
+}
